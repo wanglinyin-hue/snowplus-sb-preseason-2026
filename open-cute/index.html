@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>SNOWBOARD PRE-SEASON</title>
+  <title>SNOWBOARD OFF SEASON</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="SP Training">
@@ -68,7 +68,7 @@
       font-size: 11px;
       letter-spacing: 0.14em;
       color: var(--mid);
-      margin-bottom: 44px;
+      margin-bottom: 40px;
     }
     .cover-quote {
       font-family: 'Noto Serif TC', serif;
@@ -78,7 +78,24 @@
       line-height: 1.9;
       border-left: 2px solid var(--accent);
       padding-left: 14px;
+      margin-bottom: 14px;
     }
+    .physio-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 13px;
+      border: 1px solid rgba(26,26,26,0.2);
+      border-radius: 999px;
+      width: fit-content;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 8.5px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--mid);
+    }
+    .physio-pill svg { opacity: 0.5; flex-shrink: 0; }
     .cover-foot {
       display: flex;
       flex-direction: column;
@@ -108,11 +125,11 @@
 
     /* SNOWBOARDER ANIMATION */
     .rider-wrap {
-      margin: 28px 0 32px;
+      margin: 0 0 32px;
       display: flex;
       justify-content: center;
       align-items: flex-end;
-      height: 160px;
+      height: 170px;
       overflow: visible;
     }
     @keyframes float {
@@ -466,8 +483,8 @@
 
 <!-- ══ COVER ══ -->
 <section class="cover">
-  <div class="cover-eyebrow">SnowPlus · Pre-Season Training</div>
-  <h1 class="cover-title">SNOWBOARD<br>PRE-SEASON</h1>
+  <div class="cover-eyebrow">SnowPlus · Off Season Training</div>
+  <h1 class="cover-title">SNOWBOARD<br>OFF SEASON</h1>
   <div class="cover-sub">27 MOVEMENTS · 8 CATEGORIES</div>
 
   <!-- 小妮可滑雪動畫（卡通填色版 v2 — 灰盔藍鏡綠夾克跳躍姿勢） -->
@@ -590,6 +607,13 @@
     「Movement quality comes from<br>
     controlling the goal,<br>
     not the body.」
+  </div>
+  <div class="physio-pill">
+    <svg width="10" height="12" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5.5 0.5L1 2.2V6.1C1 8.85 3 11.43 5.5 12.1C8 11.43 10 8.85 10 6.1V2.2L5.5 0.5Z" stroke="#555" stroke-width="1.1" stroke-linejoin="round"/>
+      <path d="M3.2 6.3L4.8 7.9L7.8 4.9" stroke="#555" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    SNOWPLUS PHYSIO APPROVED
   </div>
   <div class="cover-foot">
     <span class="cover-foot-badge">SnowPlus Movement Quality Framework</span>
