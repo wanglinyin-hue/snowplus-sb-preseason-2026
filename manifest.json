@@ -1,7 +1,7 @@
 {
-  "name": "SnowPlus Pre-Season Training",
+  "name": "SnowPlus Off-Season Training",
   "short_name": "SP Training",
-  "description": "SnowPlus Snowboard Pre-Season Training mobile web app.",
+  "description": "SnowPlus Snowboard Off-Season Training mobile web app.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

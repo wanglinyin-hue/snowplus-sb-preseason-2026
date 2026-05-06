@@ -1,4 +1,4 @@
-# SnowPlus Pre-Season Mobile Web App
+# SnowPlus Off-Season Mobile Web App
 
 這是一個可直接部署的手機版 Web App / PWA，包含三個版本：
 
